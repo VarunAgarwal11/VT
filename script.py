@@ -31,7 +31,7 @@ for hashn in cleaned_hash_list:
     url = "https://www.virustotal.com/api/v3/files/"+hashn
     headers = {
     "accept": "application/json",
-    "x-apikey":"YOUR-API-KEY"  
+    "x-apikey":apikey 
     }
     VTlink= "https://www.virustotal.com/gui/file/"
     
